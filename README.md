@@ -13,9 +13,12 @@ The code present in the .ipynb file is capable of firstly extracting composition
 
 The primary source used for the calculation of these alloy properties are taken from two python libraries: "pymatgen" and "matminer". 
 
-In the AutomaticFeaturizerMPEA.pynb file. A sample of MPEA "Ti0.8CoCrFeNiCu" is calculated as an example.
+In the AutomaticFeaturizerMPEA.pynb is not only capable of calculating the alloy properties but also featurizes them along with the composition of the alloy and export it as a .csv file for further machine learning training process. In the .pynb file there are two parts:
 
-The python file is not only capable of calculating the alloy properties but also featurizes them along with the composition of the alloy and export it as a .csv file for further machine learning training process.
+1. "Part 1": A sample set of 25 MPEAs is used to demonstarte how to calculate & featurize the porperties and composition of alloy, save the calculated values in a .csv file.
+2. "Part 2": The alloy property of a single MPEA "Ti0.8CoCrFeNiCu" is calculated using the same code, if one needs to calculate them for a single MPEA at a time (as in our GUI application IMCATHEA https://github.com/subediupadesh/IMCATHEA) 
+
+
 
 The repository consists of 2 .csv files:
 
