@@ -1,5 +1,8 @@
+# For Web APP:
+Visit the website : https://imcathea.streamlit.app
+
 # AutomaticFeaturizerMPEA
-AutomaticFeaturizerMPEA.pynb is an interactive computational environment developed in python programming language to compute the properties of Multi Principal-component Element Alloy (MPEA) system .
+AutomaticFeaturizerMPEA.pynb is an interactive computational environment developed in python programming language to compute the properties of Multi Principal-component Element Alloy (MPEA) system.
 
 The code present in the .ipynb file is capable of firstly extracting composition feature from the name of MPEA and then compute thermodynamic/physical and chemical properties using these composition features. The properties that can be automatically calculated and featurized by the code are: 
 1. Valence Electron Concentration
